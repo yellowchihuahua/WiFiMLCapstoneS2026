@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Logs/temp/cache
+logs/
+tmp/
+cache/
+*.log
+
+# Large raw/intermediate data (do not commit)
+*.tsv
+*.tsv.*
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+
+# Model binaries/artifacts
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+artifacts/
+models/
+
+# Common local data folders
+raw_data/
+intermediate_data/
+
+# Local personal config (machine-specific paths)
+config/paths.local.yaml
