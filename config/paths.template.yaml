@@ -1,16 +1,21 @@
 # Team template for project paths.
 # Copy this to `config/paths.local.yaml` and edit the local file.
-# Notebook loading is local-first, so you do not need to change this template each run.
+# Notebooks load local-first:
+# 1) config/paths.local.yaml (if present)
+# 2) this template as fallback
 
 shared:
   # Main shared directory on the course server (outside this git repo).
   data_root: "/share"
 
-  # Primary ML input table (TSV/CSV/Parquet). Replace with your actual file.
-  modeling_input: "/share/path/to/your_preprocessed_dataset.tsv"
+  # Input used by ml_modeling notebook.
+  modeling_input: "/share/path/to/your_preprocessed_dataset.parquet"
 
 repo:
-  # Repo-relative output paths.
-  results_dir: "results"
-  metadata_dir: "results/metadata"
-  modeling_outputs_dir: "results/modeling_outputs"
+
+  # Modeling notebook outputs.
+  modeling_runs_dir: "results/runs/modeling"
+
+  # Optional fitted model persistence from ml_modeling notebook.
+  model_objects_dir: "results/runs/model_objects"
+  save_model_objects: false
