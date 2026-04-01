@@ -15,7 +15,3 @@ repo:
 
   # Modeling notebook outputs.
   modeling_runs_dir: "results/runs/modeling"
-
-  # Optional fitted model persistence from ml_modeling notebook.
-  model_objects_dir: "results/runs/model_objects"
-  save_model_objects: false
