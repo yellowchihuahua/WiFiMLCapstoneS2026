@@ -41,3 +41,6 @@ intermediate_data/
 
 # Local personal config (machine-specific paths)
 config/paths.local.yaml
+
+# Run outputs (accessible on shared server; push final results manually when ready)
+results/
