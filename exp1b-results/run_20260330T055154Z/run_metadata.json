@@ -1,0 +1,22 @@
+{
+  "run_id": "20260330T055154Z",
+  "data_path": "/share/2026-01-17-10-50-world.tsv_chunks/world0_mlprep/world0_feb11_integrated_output_ml_dataset.parquet",
+  "targets": [
+    "label_sensitive_binary",
+    "label_target_main"
+  ],
+  "split_modes": [
+    "random",
+    "state"
+  ],
+  "max_rows": 2000000,
+  "run_rf": false,
+  "state_n_splits": 5,
+  "state_max_train_rows": 5000000,
+  "drop_unknown_target": true,
+  "ohe_max_categories": 50,
+  "ablation_configs": [
+    "full",
+    "no_osm_scores"
+  ]
+}

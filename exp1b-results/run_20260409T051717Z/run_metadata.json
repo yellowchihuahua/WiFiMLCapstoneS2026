@@ -1,0 +1,9 @@
+{
+  "run_id": "20260409T051717Z",
+  "data_path": "/share/ml-data/integrated_all_merged_final.parquet",
+  "models_run": [
+    "sgd",
+    "dtree"
+  ],
+  "feature_mode": "both"
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "20260413T033046Z",
+  "data_path": "/share/ml-data/integrated_all_merged_final.parquet",
+  "models_run": [
+    "sgd",
+    "sgd_cal",
+    "xgb"
+  ],
+  "feature_mode": "both"
+}

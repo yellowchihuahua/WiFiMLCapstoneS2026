@@ -1,0 +1,8 @@
+{
+  "run_id": "20260408T202728Z",
+  "data_path": "/share/ml-data/integrated_world0-1_merged_final.parquet",
+  "models_run": [
+    "lgbm"
+  ],
+  "feature_mode": "both"
+}

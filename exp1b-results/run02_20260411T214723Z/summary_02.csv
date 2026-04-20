@@ -1,0 +1,4 @@
+model,thresh_pr_auc,thresh_roc_auc,thresh_macro_f1,thresh_weighted_f1,thresh_best_threshold,cw_class_weight,cw_best_threshold,cw_pr_auc,cw_roc_auc,cw_macro_f1,cw_weighted_f1,baseline_pr_auc,baseline_roc_auc,baseline_macro_f1,baseline_weighted_f1
+dtree,0.2227,0.7609,0.6535,0.9186,0.7867,"{0: 1, 1: 10}",0.71,0.2233,0.7674,0.6525,0.9202,0.247,0.8177,0.6209,0.8732
+sgd,0.2446,0.813,0.6535,0.9186,0.78,"{0: 1, 1: 10}",0.69,0.2441,0.814,0.6525,0.9202,0.2462,0.8164,0.625,0.8768
+xgb,0.245,0.8131,0.6535,0.9186,0.195,"{0: 1, 1: 5}",0.54,0.2439,0.8142,0.6525,0.9202,,,,

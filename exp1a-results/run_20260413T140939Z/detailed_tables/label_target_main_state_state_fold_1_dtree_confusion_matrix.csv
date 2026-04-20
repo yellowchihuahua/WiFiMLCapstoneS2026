@@ -1,0 +1,7 @@
+Actual \ Predicted,civic_service,commercial_recreation,other,residential_place,residential_street,transport
+civic_service,22870,29329,25691,2211,15716,2023
+commercial_recreation,13963,37899,9441,3749,25881,3565
+other,1484,2850,2720,223,1430,249
+residential_place,10950,51133,2555,22595,143841,7878
+residential_street,29302,135669,5678,64609,380779,25641
+transport,18855,66870,15455,18066,111521,11939

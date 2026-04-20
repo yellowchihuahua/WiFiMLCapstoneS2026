@@ -1,0 +1,10 @@
+,precision,recall,f1-score,support
+civic_service,0.299,0.534,0.384,38625.0
+commercial_recreation,0.198,0.122,0.151,31317.0
+other,0.026,0.009,0.013,3168.0
+residential_place,0.238,0.323,0.274,94625.0
+residential_street,0.553,0.386,0.455,246855.0
+transport,0.189,0.241,0.212,89628.0
+accuracy,0.341,0.341,0.341,0.341
+macro avg,0.251,0.269,0.248,504218.0
+weighted avg,0.384,0.341,0.351,504218.0

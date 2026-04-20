@@ -1,0 +1,7 @@
+{
+  "run_id": "20260403T222317Z",
+  "data_path": "/share/ml-data/integrated_world0-1_merged_final.parquet",
+  "models_run": [
+    "rf"
+  ]
+}

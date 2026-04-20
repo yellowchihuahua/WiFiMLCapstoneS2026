@@ -1,0 +1,10 @@
+{
+  "run_id": "20260413T080135Z",
+  "data_path": "/share/ml-data/integrated_world0-1_merged_final.parquet",
+  "models_run": [
+    "lgbm"
+  ],
+  "feature_mode": "both",
+  "ohe_max_categories": 50,
+  "timestamp": "2026-04-13 08:20:13"
+}
