@@ -15,7 +15,10 @@ data_preprocessing/
 ├── data_enrichment.py       # Vendor identification (OUI) and reverse geolocation
 ├── distribution_analysis.py # Statistical distribution and crosstab analysis
 ├── ml_preprocess.py         # Feature engineering and label bucketing for ML
-└── vendor_normalization.py  # Standardization of vendor naming conventions
+├── vendor_normalization.py  # Standardization of vendor naming conventions
+├── oui_cleaner.py       # Parser for IEEE OUI registry files
+├── oui_Feb_3_2026.txt   # Raw IEEE OUI registry (Retrieved 2026-02-03)
+└── ouiclean.txt         # Standardized vendor reference file
 ```
 
 ---
@@ -35,3 +38,12 @@ Handles the cleaning of vendor metadata. This script maps various OUI registrati
 
 ### ML Preprocessing (`ml_preprocess.py`)
 Final-stage preparation for machine learning. It transforms OSM features and performs label bucketing, categorizing OSM subtypes into **Sensitive** and **Non-Sensitive** labels and respective buckets to enable further classification tasks.
+
+#### OUI Cleaner (`oui_cleaner.py`)
+A utility script designed to parse the raw text format provided by the IEEE. It extracts the relevant Organizationally Unique Identifiers and their associated vendor names, transforming the data from `oui_Feb_3_2026.txt` into a structured `ouiclean.txt` format.
+
+#### Raw OUI Registry (`oui_Feb_3_2026.txt`)
+The original, unformatted OUI dataset as accessed from the IEEE on **February 3, 2026**. This file serves as the ground-truth source for all device manufacturer lookups within the repository.
+
+#### Processed OUI List (`ouiclean.txt`)
+The optimized and cleaned version of the registry. This file is the primary reference used by the `data_enrichment.py` script to perform efficient vendor matching for the project's data entries.
